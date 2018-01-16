@@ -83,7 +83,7 @@
                 </div>
 
                 <div class="links">
-                    <a href="#">Documentation</a>
+                    <a href="routes/web.php?prm='login'">Login</a>
                     <a href="#">Laracasts</a>
                     <a href="#">News</a>
                     <a href="#">Forge</a>
