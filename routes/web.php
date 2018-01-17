@@ -12,9 +12,13 @@
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('frontend/home');
 });
 
-Route::get('home/{login}', function ($login) {
-    return view('home');
-});
+//Route::get('/', function () {
+//    return view('welcome');
+//});
+
+//Route::get($uri, $callback);
+
+//Route::get('/user', 'UserController@index');
