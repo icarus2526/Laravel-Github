@@ -343,7 +343,7 @@
                         </ul>
                       </div>
                     </div>-->
-                    
+
                     <div class="col-xs-12" style="text-align: center; margin-bottom: 2em; margin-top: 2em;">
                       <a href="#" class="myButton">Register Now & Make Cash</a>
                       <a class="image fit">
@@ -364,7 +364,7 @@
                         </ul>
                         <div id="myTabContent" class="tab-content">
                           <div role="tabpanel" class="tab-pane fade active in" id="tab_content1" aria-labelledby="home-tab">
-                            <p>TopDollarDating is an affiliate networking platform specialising in offering quality unrestricted dating offers. We provide user friendly tools for our affiliates to track and analyse their traffic as well as a designated Affiliate Manager upon registration to ensure you get the best rewards for the traffic you send us.</p>
+                            <p style="font-size: 1.5em;">TopDollarDating is an affiliate networking platform specialising in offering quality unrestricted dating offers. We provide user friendly tools for our affiliates to track and analyse their traffic as well as a designated Affiliate Manager upon registration to ensure you get the best rewards for the traffic you send us.</p>
                             <img src="theme2/images/i-stat.png" class="image fit">
                           </div>
                           <div role="tabpanel" class="tab-pane fade" id="tab_content2" aria-labelledby="profile-tab">
