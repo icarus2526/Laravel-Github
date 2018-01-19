@@ -169,10 +169,10 @@
 
 .nav-sm .container.body .col-md-3.left_col {
     min-height: 100%;
-    width: 70px;
+    width: 0px;
     padding: 0;
     z-index: 9999;
-    position: absolute
+    position: absolute;
 }
 
 .nav-sm .container.body .col-md-3.left_col.menu_fixed {
@@ -194,7 +194,7 @@
 
 .nav-sm .container.body .right_col {
     padding: 10px 20px;
-    margin-left: 70px;
+    margin-left: 0px;
     z-index: 2
 }
 
@@ -217,10 +217,10 @@
     border-radius: 50%
 }
 
-.nav-sm .main_container .top_nav {
+.nav-sm .top_nav .main_container{
     display: block;
-    margin-left: 70px;
-    z-index: 2
+    /*margin-left: 70px;*/
+    z-index: 2;
 }
 
 .nav-sm .nav.side-menu li a {
@@ -236,7 +236,7 @@
 
 .nav-sm .nav.side-menu li.active-sm ul ul,.nav-sm ul.nav.child_menu ul {
     position: static;
-    width: 200px;
+    width: 50px;
     background: 0 0
 }
 
@@ -255,7 +255,7 @@
 .nav-sm .nav.side-menu li a i {
     font-size: 25px!important;
     text-align: center;
-    width: 100%!important;
+    /*width: 100%!important;*/
     margin-bottom: 5px
 }
 
@@ -263,7 +263,7 @@
     left: 100%;
     position: absolute;
     top: 0;
-    width: 210px;
+    width: 140px;
     z-index: 4000;
     background: #393939;
     display: none
@@ -376,16 +376,16 @@
 
 .nav_menu {
     float: left;
-    background: #EDEDED;
+    background: #292929;/*#EDEDED;*/
     border-bottom: 1px solid #D9DEE4;
     margin-bottom: 10px;
     width: 100%;
-    position: relative
+    position: fixed
 }
 
 @media (min-width: 480px) {
     .nav_menu {
-        position:static
+        position:fixed
     }
 }
 
@@ -574,9 +574,17 @@ body {
     line-height: 1.471
 }
 
+.top_nav{
+    box-shadow: rgb(0,0,0,0.25);
+    z-index: 10000;
+    max-height: 10em;
+    margin-left: 0px;
+    position: fixed
+}
+
 .main_container .top_nav {
     display: block;
-    margin-left: 230px
+    margin-left: 140px;
 }
 
 .no-padding {
@@ -2038,6 +2046,7 @@ h4.graph_title {
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
+    /*backface-visibility: hidden;*/
     -moz-osx-font-smoothing: grayscale
 }
 

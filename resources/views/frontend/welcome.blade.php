@@ -18,43 +18,58 @@
     <link href="theme2/vendors/nprogress/nprogress.css" rel="stylesheet">
     <!-- iCheck -->
     <link href="theme2/vendors/iCheck/skins/flat/green.css" rel="stylesheet">
-
     <!-- Custom Theme Style -->
     <link href="theme2/build/css/custom.min.css" rel="stylesheet">
     <link href="theme2/css/style.css" rel="stylesheet">
+    <!--jssor_slider-->
+    <link href="theme2/css/jssor_1_slider.css" rel="stylesheet">
   </head>
 
   <body class="nav-md">
+    <!-- top navigation -->
+        <div class="top_nav">
+          <div class="nav_menu">
+            <nav>
+              <div class="nav toggle">
+                <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+              </div>
+              <img src="theme2/images/logo.png" style="padding: 5px; max-height: 5em; max-width: 10em;">
+            </nav>
+          </div>
+        </div>
+        <!-- /top navigation -->
+    <div class="clearfix"></div>
     <div class="container body">
+
       <div class="main_container">
-        <div class="col-md-3 left_col">
+        <!--<div class="col-md-3 left_col">
           <div class="left_col scroll-view">
             <div class="navbar nav_title" style="border: 0;">   
-                <!--<i class="fa fa-paw"></i>
+                <i class="fa fa-paw"></i>
                 <span>Gentelella Alela!</span>
-                <img src="theme2/images/logo.png" class="navbar nav_title">-->
-            </div>
+                <img src="theme2/images/logo.png" class="navbar nav_title">
+            </div>-->
 
-            <div class="clearfix"></div>
-            <br />
+            
 
-            <!-- sidebar menu -->
+             <!--sidebar menu
             <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
               <div class="menu_section">
                 <h3>General</h3>
                 <ul class="nav side-menu">
                   <li><a><i class="fa fa-home"></i> Home <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="#">Dashboard</a></li>
-                      <li><a href="#">Dashboard2</a></li>
-                      <li><a href="#">Dashboard3</a></li>
+                      <li><a href="#">About US</a></li>
+                      <li><a href="#">Contact</a></li>
+                      <li><a href="#">Tools</a></li>
+                      <li><a href="#">Blog</a></li>
+                      <li><a href="#">Login</a></li>
                     </ul>
                   </li>
                 </ul>
               </div>
-
             </div>
-            <!-- /sidebar menu -->
+            sidebar menu-->
 
             <!-- /menu footer buttons 
             <div class="sidebar-footer hidden-small">
@@ -71,31 +86,24 @@
                 <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
               </a>
             </div>
-             /menu footer buttons -->
-          </div>
-        </div>
+             /menu footer buttons 
 
-        <!-- top navigation -->
-        <div class="top_nav">
-          <div class="nav_menu">
-            <nav>
-              <div class="nav toggle">
-                <a id="menu_toggle"><i class="fa fa-bars"></i></a>
-              </div>
-            </nav>
           </div>
-        </div>
-        <!-- /top navigation -->
+        </div>-->
 
+        
+        <div class="clearfix"></div>
+            <br /><br>
         <!-- page content -->
         <div class="right_col" role="main">
-
           <div class="">
             <div class="page-title">
-              <div class="title_left" style="background-color: #292929; width: 100%;">
-                <!--<h3>E-commerce :: Product Page</h3>-->
-                <img src="theme2/images/logo.png" class="image">
-              </div>
+              <!--<div class="title_left" style="background-color: #292929; width: 100%;">
+                <h3>E-commerce :: Product Page</h3>-->
+                <!--<a class="image fit">
+                <img src="theme2/images/logo.png" style="padding-top: 10px; max-height: 5em; max-width: 10em;">
+                </a>
+              </div>-->
 
               <!--<div class="title_right"  style="background-color: #000000;">
                 <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
@@ -133,139 +141,46 @@
                     </ul>-->
                     <div class="clearfix"></div>
                   </div>
+
                   <div class="x_content">
+                    
+                    <div class="col-xs-12">
+                    <!--Slide Pictures.-->
+                    <div class="clearfix"></div>
+                    <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden; visibility: hidden;">
+                      <!-- Loading Screen -->
+                      <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
+                        <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+                        <div style="position:absolute;display:block;background:url('theme2/images/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+                      </div>
+                      <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
+                        <img data-u="add" title="Jssor Slider" style="display:none;position:absolute;top:0;right:0;width:16px;height:16px;z-index:1000;" src="img/site/icon-16.png" />
+                        <div data-p="275.00">
+                          <img data-u="image" src="theme2/images/f1bg.jpg" />
+                          <img data-u="caption" data-t="0" style="position: absolute; top: 36px; left: -494px; width: 500px; height: 200px;" src="theme2/images/f1-wepayfor.png" />
+                          <img data-u="caption" data-t="1" style="position: absolute; top: 223px; left: -458px; width: 450px; height: 200px;" src="theme2/images/f1-accepting.png" />
+                          <img data-u="caption" data-t="2" style="position: absolute; top: 565px; left: 226px; width: 428px; height: 116px;" src="theme2/images/f1-regbtn.png" />
+                        </div>
+                        <div data-p="275.00" style="display: none;">
+                          <img data-u="image" src="theme2/images/slide2_psd.jpg" />
+                        </div>
+                        <div data-p="275.00" data-po="80% 55%" style="display: none;">
+                          <img data-u="image" src="theme2/images/slide3_psd.jpg" />
+                        </div>
+                        <a data-u="any" href="http://www.jssor.com" style="display:none">Full Width Slider</a>
+                      </div>
+                      <!-- Bullet Navigator -->
+                      <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
+                        <!-- bullet navigator item prototype -->
+                        <div data-u="prototype" style="width:16px;height:16px;"></div>
+                      </div>
+                      <!-- Arrow Navigator -->
+                      <span data-u="arrowleft" class="jssora22l" style="top:0px;left:8px;width:40px;height:58px;" data-autocenter="2"></span>
+                      <span data-u="arrowright" class="jssora22r" style="top:0px;right:8px;width:40px;height:58px;" data-autocenter="2"></span>
+                    </div><!--/#jsor_1-->
 
-                    <div class="col-md-7 col-sm-7 col-xs-12" style="width: 100%;">
-                      <!--Slide Pictures.-->
-
-                    <script src="/theme2/js/jssor.slider-21.1.6.min.js" type="text/javascript"></script>
-                    <script type="text/javascript">
-                    jssor_1_slider_init = function() {
-
-            var jssor_1_SlideoTransitions = [
-              [{b:0,d:580,x:771,y:6}],
-              [{b:0,d:580,x:-3,y:-20},{b:580,d:580,x:768,y:9}],
-              [{b:0,d:1340,x:-5,y:271,sX:9,sY:9},{b:1340,d:660,x:81,y:-454,sX:-9,sY:-9}]
-            ];
-
-            var jssor_1_options = {
-              $AutoPlay: true,
-              $SlideDuration: 900,
-              $SlideEasing: $Jease$.$OutQuint,
-              $CaptionSliderOptions: {
-                $Class: $JssorCaptionSlideo$,
-                $Transitions: jssor_1_SlideoTransitions
-              },
-              $ArrowNavigatorOptions: {
-                $Class: $JssorArrowNavigator$
-              },
-              $BulletNavigatorOptions: {
-                $Class: $JssorBulletNavigator$
-              }
-            };
-
-            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
-
-            /*responsive code begin*/
-            /*you can remove responsive code if you don't want the slider scales while window resizing*/
-            function ScaleSlider() {
-                var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
-                if (refSize) {
-                    refSize = Math.min(refSize, 1920);
-                    jssor_1_slider.$ScaleWidth(refSize);
-                }
-                else {
-                    window.setTimeout(ScaleSlider, 30);
-                }
-            }
-            ScaleSlider();
-            $Jssor$.$AddEvent(window, "load", ScaleSlider);
-            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
-            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
-            /*responsive code end*/
-        };
-    </script>
-    <style>
-        /* jssor slider bullet navigator skin 05 css */
-        /*
-        .jssorb05 div           (normal)
-        .jssorb05 div:hover     (normal mouseover)
-        .jssorb05 .av           (active)
-        .jssorb05 .av:hover     (active mouseover)
-        .jssorb05 .dn           (mousedown)
-        */
-        .jssorb05 {
-            position: absolute;
-        }
-        .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
-            position: absolute;
-            /* size of bullet elment */
-            width: 16px;
-            height: 16px;
-            background: url('theme2/images/b05.png') no-repeat;
-            overflow: hidden;
-            cursor: pointer;
-        }
-        .jssorb05 div { background-position: -7px -7px; }
-        .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
-        .jssorb05 .av { background-position: -67px -7px; }
-        .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
-
-        .jssora22l, .jssora22r {
-            display: block;
-            position: absolute;
-            /* size of arrow element */
-            width: 40px;
-            height: 58px;
-            cursor: pointer;
-            background: url('theme2/images/a22.png') center center no-repeat;
-            overflow: hidden;
-        }
-        .jssora22l { background-position: -10px -31px; }
-        .jssora22r { background-position: -70px -31px; }
-        .jssora22l:hover { background-position: -130px -31px; }
-        .jssora22r:hover { background-position: -190px -31px; }
-        .jssora22l.jssora22ldn { background-position: -250px -31px; }
-        .jssora22r.jssora22rdn { background-position: -310px -31px; }
-        .jssora22l.jssora22lds { background-position: -10px -31px; opacity: .3; pointer-events: none; }
-        .jssora22r.jssora22rds { background-position: -70px -31px; opacity: .3; pointer-events: none; }
-    </style>
-    <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden; visibility: hidden;">
-        <!-- Loading Screen -->
-        <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">peace
-            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
-            <div style="position:absolute;display:block;background:url('theme2/images/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
-        </div>
-        <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
-            <img data-u="add" title="Jssor Slider" style="display:none;position:absolute;top:0;right:0;width:16px;height:16px;z-index:1000;" src="img/site/icon-16.png" />
-            <div data-p="275.00">
-                <img data-u="image" src="theme2/images/f1bg.jpg" />
-                <img data-u="caption" data-t="0" style="position: absolute; top: 36px; left: -494px; width: 500px; height: 200px;" src="theme2/images/f1-wepayfor.png" />
-                <img data-u="caption" data-t="1" style="position: absolute; top: 223px; left: -458px; width: 450px; height: 200px;" src="theme2/images/f1-accepting.png" />
-                <img data-u="caption" data-t="2" style="position: absolute; top: 565px; left: 226px; width: 428px; height: 116px;" src="theme2/images/f1-regbtn.png" />
-            </div>
-            <div data-p="275.00" style="display: none;">
-                <img data-u="image" src="theme2/images/slide2_psd.jpg" />
-            </div>
-            <div data-p="275.00" data-po="80% 55%" style="display: none;">
-                <img data-u="image" src="theme2/images/slide3_psd.jpg" />
-            </div>
-            <a data-u="any" href="http://www.jssor.com" style="display:none">Full Width Slider</a>
-        </div>
-        <!-- Bullet Navigator -->
-        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
-            <!-- bullet navigator item prototype -->
-            <div data-u="prototype" style="width:16px;height:16px;"></div>
-        </div>
-        <!-- Arrow Navigator -->
-        <span data-u="arrowleft" class="jssora22l" style="top:0px;left:8px;width:40px;height:58px;" data-autocenter="2"></span>
-        <span data-u="arrowright" class="jssora22r" style="top:0px;right:8px;width:40px;height:58px;" data-autocenter="2"></span>
-    </div>
-    <script type="text/javascript">jssor_1_slider_init();</script>
-    <!-- #endregion Jssor Slider End -->
-
-                      <!--End Slide Pictures.-->
-                    </div>
+                    <!--End Slide Pictures.-->
+                    </div><!--End col-xs-12-->
 
                     <!--<div class="col-md-5 col-sm-5 col-xs-12" style="border:0px solid #e5e5e5;">
 
@@ -344,16 +259,21 @@
                       </div>
                     </div>-->
                     
-                    <div class="col-xs-12" style="text-align: center; margin-bottom: 2em; margin-top: 2em;">
+                    <div class="col-xs-12" style="text-align: center; margin-bottom: 2em; margin-top: 2em; display: block; height: auto;">
                       <a href="#" class="myButton">Register Now & Make Cash</a>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="col-xs-12">
                       <a class="image fit">
                         <img src="theme2/images/theearning-process.jpg">
                       </a>
                     </div>
+                    <div class="clearfix"></div>
 
                     <div class="col-md-12">
-
+                      <!--tabpanel-->
                       <div class="" role="tabpanel" data-example-id="togglable-tabs">
+
                         <ul id="myTab" class="nav nav-tabs bar_tabs" role="tablist">
                           <li role="presentation" class="active"><a href="#tab_content1" id="home-tab" role="tab" data-toggle="tab" aria-expanded="true">WE ARE</a>
                           </li>
@@ -362,29 +282,35 @@
                           <li role="presentation" class=""><a href="#tab_content3" role="tab" id="profile-tab2" data-toggle="tab" aria-expanded="false">Profile</a>
                           </li>
                         </ul>
+
                         <div id="myTabContent" class="tab-content">
+
                           <div role="tabpanel" class="tab-pane fade active in" id="tab_content1" aria-labelledby="home-tab">
-                            <p>TopDollarDating is an affiliate networking platform specialising in offering quality unrestricted dating offers. We provide user friendly tools for our affiliates to track and analyse their traffic as well as a designated Affiliate Manager upon registration to ensure you get the best rewards for the traffic you send us.</p>
+                            <p style="font-size: ">TopDollarDating is an affiliate networking platform specialising in offering quality unrestricted dating offers. We provide user friendly tools for our affiliates to track and analyse their traffic as well as a designated Affiliate Manager upon registration to ensure you get the best rewards for the traffic you send us.</p>
                             <img src="theme2/images/i-stat.png" class="image fit">
                           </div>
+
                           <div role="tabpanel" class="tab-pane fade" id="tab_content2" aria-labelledby="profile-tab">
                             <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo
                               booth letterpress, commodo enim craft beer mlkshk aliquip</p>
                           </div>
+
                           <div role="tabpanel" class="tab-pane fade" id="tab_content3" aria-labelledby="profile-tab">
                             <p>xxFood truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui
                               photo booth letterpress, commodo enim craft beer mlkshk </p>
                           </div>
+
                         </div>
                       </div>
-
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+                      <!--/tabpanel-->
+                    </div><!--/col_md_12-->
+                  </div><!--/x_content-->
+                </div><!--/x_panel-->
+              </div><!--/col_md_12 sm_12-->
+            </div><!--/row-->
+          </div><!-- /page title -->
+        </div><!-- /div -->
+      </div><!--/right_col-->
         <!-- /page content -->
 
         <!-- footer content -->
@@ -394,11 +320,15 @@
             <!--Gentelella - Bootstrap Admin Template by <a href="https://colorlib.com">Colorlib</a>-->
           </div>
           <div class="clearfix"></div>
-        </footer>
-        <!-- /footer content -->
-      </div>
-    </div>
+        </footer><!-- /footer content --> 
+          
+    <!--</div>/col-md-3 left_col-->
+  </div><!--/main_container-->
+</div><!--/container_body-->
 
+    <!--jssor_slider-->
+    <script src="/theme2/js/jssor.slider-21.1.6.min.js"></script>
+    <script src="/theme2/js/jssor_1_slider.js"></script>
     <!-- jQuery -->
     <script src="theme2/vendors/jquery/dist/jquery.min.js"></script>
     <!-- Bootstrap -->
@@ -407,7 +337,6 @@
     <script src="theme2/vendors/fastclick/lib/fastclick.js"></script>
     <!-- NProgress -->
     <script src="theme2/vendors/nprogress/nprogress.js"></script>
-
     <!-- Custom Theme Scripts -->
     <script src="theme2/build/js/custom.min.js"></script>
   </body>
