@@ -47,11 +47,12 @@
 	cursor:pointer;
 	color:#ffffff;
 	font-family:Arial;
-	font-size:34px;
+	font-size:30px;
 	font-weight:bold;
 	padding:10px 36px;
 	text-decoration:none;
 	text-shadow:1px 1px 7px #2f6627;
+	max-height: 10em;
    	margin-bottom:1em;
    	
 }

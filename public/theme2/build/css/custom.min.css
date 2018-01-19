@@ -180,7 +180,7 @@
     height: 100%
 }
 
-.nav-sm .container.body .col-md-3.left_col .mCSB_container,.nav-sm .container.body .col-md-3.left_col .mCustomScrollBox {
+.nav-sm .container.body .col-md-3.left_col .mCSB_container .nav-sm .container.body .col-md-3.left_col .mCustomScrollBox {
     overflow: visible
 }
 
@@ -199,7 +199,7 @@
 }
 
 .nav-sm .navbar.nav_title {
-    width: 70px
+    width: 0px
 }
 
 .nav-sm .navbar.nav_title a span {
@@ -217,7 +217,7 @@
     border-radius: 50%
 }
 
-.nav-sm .top_nav .main_container{
+.nav-sm .main_container .top_nav{
     display: block;
     /*margin-left: 70px;*/
     z-index: 2;
@@ -236,12 +236,12 @@
 
 .nav-sm .nav.side-menu li.active-sm ul ul,.nav-sm ul.nav.child_menu ul {
     position: static;
-    width: 50px;
+    width: 230px;/*------Toom edits 190161----------*/
     background: 0 0
 }
 
 .nav-sm>.nav.side-menu>li.active-sm>a {
-    color: #1ABB9C!important
+    color: rgb(88, 88, 88)!important
 }
 
 .nav-sm .nav.side-menu li a i.toggle-up {
@@ -263,7 +263,7 @@
     left: 100%;
     position: absolute;
     top: 0;
-    width: 140px;
+    width: 140px;/*--------Toom edit 180161----------*/
     z-index: 4000;
     background: #393939;
     display: none
@@ -367,7 +367,7 @@
 }
 
 .nav-sm .menu_section {
-    margin: 0
+    margin: 1px
 }
 
 .nav-sm li li span.fa {
@@ -422,7 +422,7 @@ body .container.body .right_col {
 }
 
 @media (max-width: 991px) {
-    .nav-md .container.body .right_col,.nav-md .container.body .top_nav {
+    .nav-md .container.body .right_col .nav-md .container.body .top_nav {
         width:100%;
         margin: 0
     }
@@ -576,9 +576,9 @@ body {
 
 .top_nav{
     box-shadow: rgb(0,0,0,0.25);
-    z-index: 10000;
+    z-index: 1000;
     max-height: 10em;
-    margin-left: 0px;
+    margin: 0px;
     position: fixed
 }
 
@@ -730,8 +730,7 @@ a {
 
 .top_nav .navbar-right li {
     display: inline-block;
-    float: right;
-    position: static
+    position: static;
 }
 
 @media (min-width: 480px) {
@@ -928,7 +927,7 @@ a {
 .toggle {
     float: left;
     margin: 0;
-    padding-top: 16px;
+    padding-top: 15px;
     width: 70px
 }
 
@@ -988,7 +987,7 @@ footer {
 }
 
 .nav-sm footer {
-    margin-left: 70px
+    margin-left: 0px
 }
 
 .footer_fixed footer {

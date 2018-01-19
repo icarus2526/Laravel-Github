@@ -25,7 +25,7 @@
     <link href="theme2/css/jssor_1_slider.css" rel="stylesheet">
   </head>
 
-  <body class="nav-md">
+  <body class="nav-sm">
     <!-- top navigation -->
         <div class="top_nav">
           <div class="nav_menu">
@@ -38,7 +38,7 @@
           </div>
         </div>
         <!-- /top navigation -->
-    <div class="clearfix"></div>
+    
     <div class="container body">
 
       <div class="main_container">
@@ -140,14 +140,15 @@
                       </li>
                     </ul>-->
                     <div class="clearfix"></div>
+                    
                   </div>
-
-                  <div class="x_content">
+                  
+                  <div class="x_content" style="overflow: hidden; backface-visibility: hidden; transition: -webkit-transform 0.25s ease-in-out;">
                     
                     <div class="col-xs-12">
                     <!--Slide Pictures.-->
-                    <div class="clearfix"></div>
-                    <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden; visibility: hidden;">
+                    
+                    <div id="jssor_1" class="jssor_1">
                       <!-- Loading Screen -->
                       <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
                         <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
@@ -181,7 +182,7 @@
 
                     <!--End Slide Pictures.-->
                     </div><!--End col-xs-12-->
-
+                
                     <!--<div class="col-md-5 col-sm-5 col-xs-12" style="border:0px solid #e5e5e5;">
 
                       <h3 class="prod_title">LOWA Men’s Renegade GTX Mid Hiking Boots Review</h3>
@@ -259,17 +260,16 @@
                       </div>
                     </div>-->
                     
-                    <div class="col-xs-12" style="text-align: center; margin-bottom: 2em; margin-top: 2em; display: block; height: auto;">
+                    <div class="col-xs-12" style="text-align: center; margin-bottom: 2em; margin-top: 2em; display: block;">
                       <a href="#" class="myButton">Register Now & Make Cash</a>
+                        <div>
+                          <a class="image fit">
+                            <img src="theme2/images/theearning-process.jpg">
+                          </a>
+                        </div>
                     </div>
                     <div class="clearfix"></div>
-                    <div class="col-xs-12">
-                      <a class="image fit">
-                        <img src="theme2/images/theearning-process.jpg">
-                      </a>
-                    </div>
-                    <div class="clearfix"></div>
-
+                    
                     <div class="col-md-12">
                       <!--tabpanel-->
                       <div class="" role="tabpanel" data-example-id="togglable-tabs">
@@ -299,7 +299,7 @@
                             <p>xxFood truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui
                               photo booth letterpress, commodo enim craft beer mlkshk </p>
                           </div>
-
+                          
                         </div>
                       </div>
                       <!--/tabpanel-->
@@ -312,16 +312,16 @@
         </div><!-- /div -->
       </div><!--/right_col-->
         <!-- /page content -->
-
+        
         <!-- footer content -->
         <footer>
           <div class="pull-right">
             @TopDollarDateng.com.All rights reserved.
             <!--Gentelella - Bootstrap Admin Template by <a href="https://colorlib.com">Colorlib</a>-->
-          </div>
-          <div class="clearfix"></div>
+            <div class="clearfix"></div>
+          </div>  
         </footer><!-- /footer content --> 
-          
+        
     <!--</div>/col-md-3 left_col-->
   </div><!--/main_container-->
 </div><!--/container_body-->
@@ -339,5 +339,6 @@
     <script src="theme2/vendors/nprogress/nprogress.js"></script>
     <!-- Custom Theme Scripts -->
     <script src="theme2/build/js/custom.min.js"></script>
+
   </body>
 </html>

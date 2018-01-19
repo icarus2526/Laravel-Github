@@ -157,8 +157,7 @@ html , body{
     position: fixed;
     height: 100%
 }
-.nav-sm .container.body .col-md-3.left_col .mCSB_container,
-.nav-sm .container.body .col-md-3.left_col .mCustomScrollBox {
+.nav-sm .container.body .col-md-3.left_col .mCSB_container .nav-sm .container.body .col-md-3.left_col .mCustomScrollBox {
     overflow: visible
 }
 .nav-sm .hidden-small {
